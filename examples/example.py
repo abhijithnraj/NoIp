@@ -2,7 +2,7 @@ import sys
 try:
     from NoIp import NoIp
 except ModuleNotFoundError:
-    print("NoIp not found, install it by using pip install https://github.com/abhiramshibu/NoIp")
+    print("NoIp not found, install it by using pip install 'https://github.com/ABHIRAMSHIBU/NoIp/archive/refs/heads/develop.zip'")
     sys.exit(-1)
 
 hostname = input("Enter your hostname:")
